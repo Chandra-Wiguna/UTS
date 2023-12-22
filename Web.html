@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absensi Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Absensi Mahasiswa</h2>
+        <form id="absenForm">
+            <label for="nama">Nama Mahasiswa:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="nim">NIM Mahasiswa:</label>
+            <input type="text" id="nim" name="nim" required>
+
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" name="kelas" required>
+
+            <button type="submit">Absen</button>
+        </form>
+        <!-- Tempat untuk menampilkan pesan kesalahan -->
+        <div id="error-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
